@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "frontend"
+        ],
+        "nohoist": [
+            "**/@angular/flex-layout",
+            "**/@angular/material",
+            "**/@angular/material-moment-adapter",
+            "**/@types/jasmine",
+            "**/@types/jasminewd2",
+            "**/@types/mocha",
+            "**/roboto-fontface"
+        ]
+    }
+}
